@@ -1,0 +1,57 @@
+@media (max-width: 1199px) {
+    
+   .promo {
+    &__header {
+        font-size: 35px;
+       }
+    &__subheader {
+        font-size: 20px;
+    }
+    &__icons {
+        margin-top: 30px;
+    }
+   }
+}
+@media (max-width: 991px) {
+    .advantages {
+    .title {
+        font-size: 26px;
+    }
+    &__item {
+        max-width: 290px;
+    }
+    }
+}
+@media (max-width: 767px) {
+    .header {
+        max-width: 720px;
+        justify-content: space-around;
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+       }
+    }
+    .advantages {
+        padding: 35px 0 50px 0;
+        &__item {
+            max-width: 220px;
+        }
+    }
+
+
+}
+@media (max-width: 575px) {
+    .header {
+    &__logo {
+        max-width: 80%;
+        img {
+            width: 85%;
+        }  
+    }
+    &__official {
+        display: none;
+    }
+    }
+
+}
